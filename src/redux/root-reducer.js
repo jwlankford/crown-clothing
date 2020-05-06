@@ -1,3 +1,4 @@
+  
 import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
@@ -17,5 +18,7 @@ const rootReducer = combineReducers({
   user: userReducer,
   cart: cartReducer,
   directory: directoryReducer,
-  shopReducer: shopReducer
+  shop: shopReducer
 });
+
+export default persistReducer(persistConfig, rootReducer);
