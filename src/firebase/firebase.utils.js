@@ -3,15 +3,16 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyCoxQ-d3BA0oPnXJv13Gvq3ZQIbD5LDnqE",
-    authDomain: "crowndb-eeddd.firebaseapp.com",
-    databaseURL: "https://crowndb-eeddd.firebaseio.com",
-    projectId: "crowndb-eeddd",
-    storageBucket: "crowndb-eeddd.appspot.com",
-    messagingSenderId: "786709661310",
-    appId: "1:786709661310:web:fa43bef53005890bc07a2f",
-    measurementId: "G-CDKBTXREMX"
-  };
+  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
+  authDomain: 'crwn-db.firebaseapp.com',
+  databaseURL: 'https://crwn-db.firebaseio.com',
+  projectId: 'crwn-db',
+  storageBucket: 'crwn-db.appspot.com',
+  messagingSenderId: '850995411664',
+  appId: '1:850995411664:web:7ddc01d597846f65'
+};
+
+firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
@@ -38,8 +39,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
-firebase.initializeApp(config);
-
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
@@ -48,4 +47,3 @@ provider.setCustomParameters({ prompt: 'select_account' });
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
-
