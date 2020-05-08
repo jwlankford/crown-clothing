@@ -15,14 +15,14 @@ import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link className='logo-container' to='/'>
+    <Link className='logo-container' to='/crown-clothing/'>
       <Logo className='logo' />
     </Link>
     <div className='options'>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='/crown-clothing/shop'>
         SHOP
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='/crown-clothing/shop'>
         CONTACT
       </Link>
       {currentUser ? (
@@ -30,7 +30,7 @@ const Header = ({ currentUser, hidden }) => (
           SIGN OUT
         </div>
       ) : (
-        <Link className='option' to='/signin'>
+        <Link className='option' to='/crown-clothing/signin'>
           SIGN IN
         </Link>
       )}
