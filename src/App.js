@@ -48,6 +48,7 @@ class App extends React.Component {
       <div>
         <Header />
         <Switch>
+          <Route exact path='/crown-clothing' component={HomePage} />
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
