@@ -32,6 +32,23 @@
     }
   }
 
+  &.close {
+    font-size: 28px;
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+    min-width: 15px;
+    color: black;
+    font-family: cursive;
+    padding: 0;
+  }
+
   &.inverted {
     background-color: white;
     color: black;
