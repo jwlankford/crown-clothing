@@ -3,8 +3,8 @@ import CustomButton from '../custom-button/custom-button.component';
 
 export const CartDropdownContainer = styled.div`
   position: absolute;
-  width: 260px;
-  height: 360px;
+  width: 300px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   padding: 50px 30px 20px;
@@ -30,6 +30,9 @@ export const CartDropdownCloseButton = styled(CustomButton)`
     cursor: pointer;
     font-family: cursive;
     font-weight: bolder;
+    color: black;
+    padding: 0;
+    min-width: 50px;
 `;
 
 export const EmptyMessageContainer = styled.span`
