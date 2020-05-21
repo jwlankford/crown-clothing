@@ -10,14 +10,12 @@ import { toggleCartHidden } from '../../redux/cart/cart.actions.js';
 import {
   CartDropdownContainer,
   CartDropdownButton,
-  CartDropdownCloseButton,
   EmptyMessageContainer,
   CartItemsContainer
 } from './cart-dropdown.styles';
 
 const CartDropdown = ({ cartItems, history, dispatch }) => (
   <CartDropdownContainer>
-    <CartDropdownCloseButton onClick={() => {dispatch(toggleCartHidden())}}>X</CartDropdownCloseButton>
     <CartItemsContainer>
       {cartItems.length ? (
         cartItems.map(cartItem => (
