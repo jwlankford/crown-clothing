@@ -4,7 +4,24 @@
   "proxy": "http://localhost:5000",
   "homepage": "https://jwlankford.github.io/crown-clothing/",
   "private": true,
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "2.8.5",
+    "dotenv": "7.0.0",
+    "express": "^4.16.4",
+    "stripe": "6.28.0",
     "axios": "^0.19.2",
     "firebase": "6.0.2",
     "node-sass": "^4.14.1",
@@ -22,19 +39,10 @@
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.19.1",
     "gh-pages": "^2.2.0",
     "react-scripts": "^3.4.1"
-  },
-  "resolutions": {
-    "babel-jest": "24.7.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
