@@ -3,4 +3,4 @@ This project reflects an understanding of React, Redux and Firebase by building 
 Live demo
 https://jwlankford.github.io/crown-clothing
 
-WARNING: There maybe an error due to firebase data not pulling correctly. Example, a direct link to catgories like "/shop/hats" may shop error. When I get the time, I am looking at fixing it. Thanks. 
+WARNING: There maybe an error due to firebase data not pulling correctly. Example, a direct link to shop page like "/shop" may give shop error. When I get the time, I am looking at fixing it. Thanks. 
