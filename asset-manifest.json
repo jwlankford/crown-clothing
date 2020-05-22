@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/crown-clothing/static/css/main.13820d97.chunk.css",
-    "main.js": "/crown-clothing/static/js/main.27495682.chunk.js",
-    "main.js.map": "/crown-clothing/static/js/main.27495682.chunk.js.map",
+    "main.css": "/crown-clothing/static/css/main.42cc8b22.chunk.css",
+    "main.js": "/crown-clothing/static/js/main.8f9cb659.chunk.js",
+    "main.js.map": "/crown-clothing/static/js/main.8f9cb659.chunk.js.map",
     "runtime-main.js": "/crown-clothing/static/js/runtime-main.4226f66c.js",
     "runtime-main.js.map": "/crown-clothing/static/js/runtime-main.4226f66c.js.map",
-    "static/js/2.ed45ed87.chunk.js": "/crown-clothing/static/js/2.ed45ed87.chunk.js",
-    "static/js/2.ed45ed87.chunk.js.map": "/crown-clothing/static/js/2.ed45ed87.chunk.js.map",
+    "static/js/2.b1a3a608.chunk.js": "/crown-clothing/static/js/2.b1a3a608.chunk.js",
+    "static/js/2.b1a3a608.chunk.js.map": "/crown-clothing/static/js/2.b1a3a608.chunk.js.map",
     "index.html": "/crown-clothing/index.html",
-    "precache-manifest.d00ece819235b5fd80209ab4e213f97b.js": "/crown-clothing/precache-manifest.d00ece819235b5fd80209ab4e213f97b.js",
+    "precache-manifest.6be41c19d1d58a6cb280089e5b58869b.js": "/crown-clothing/precache-manifest.6be41c19d1d58a6cb280089e5b58869b.js",
     "service-worker.js": "/crown-clothing/service-worker.js",
-    "static/css/main.13820d97.chunk.css.map": "/crown-clothing/static/css/main.13820d97.chunk.css.map",
-    "static/js/2.ed45ed87.chunk.js.LICENSE.txt": "/crown-clothing/static/js/2.ed45ed87.chunk.js.LICENSE.txt",
+    "static/css/main.42cc8b22.chunk.css.map": "/crown-clothing/static/css/main.42cc8b22.chunk.css.map",
+    "static/js/2.b1a3a608.chunk.js.LICENSE.txt": "/crown-clothing/static/js/2.b1a3a608.chunk.js.LICENSE.txt",
     "static/media/crown.ed28accb.svg": "/crown-clothing/static/media/crown.ed28accb.svg",
     "static/media/shopping-bag.30f07071.svg": "/crown-clothing/static/media/shopping-bag.30f07071.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4226f66c.js",
-    "static/js/2.ed45ed87.chunk.js",
-    "static/css/main.13820d97.chunk.css",
-    "static/js/main.27495682.chunk.js"
+    "static/js/2.b1a3a608.chunk.js",
+    "static/css/main.42cc8b22.chunk.css",
+    "static/js/main.8f9cb659.chunk.js"
   ]
 }
