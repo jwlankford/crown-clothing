@@ -24,7 +24,7 @@
     "stripe": "6.28.0",
     "axios": "^1.6.0",
     "firebase": "6.0.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "7.0.3",
@@ -42,7 +42,7 @@
     "concurrently": "^4.0.1",
     "nodemon": "^1.19.1",
     "gh-pages": "^2.2.0",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^5.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
